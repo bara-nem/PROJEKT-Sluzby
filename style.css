@@ -125,7 +125,38 @@ justify-content: space-around;
 
 /* PC */
 
-@media screen and (min-width: 110px) {
-    
+@media screen and (min-width: 1100px) {
+
+.kontejner{
+    width: 1200px;
+    height: 1122px;
+}
+
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 40px 80px 80px;
+    text-align: left;
+    gap: 60px;
+
+}
+
+main div{
+flex: 1 1 490px;
+}
+
+.cestovatel img{
+    max-width: 425px;
+}
+
+.kancelar{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.delegat{
+    display: flex;
+}
+
 
 }
