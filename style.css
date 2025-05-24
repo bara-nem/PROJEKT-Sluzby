@@ -130,14 +130,16 @@ justify-content: space-around;
 .kontejner{
     width: 1200px;
     height: 1122px;
+    padding: 40px 80px;
 }
 
 main{
     display: flex;
     flex-direction: row-reverse;
-    padding: 40px 80px 80px;
+    width: 1040px;
     text-align: left;
     gap: 60px;
+    margin-bottom: 80px;
 
 }
 
@@ -146,12 +148,44 @@ flex: 1 1 490px;
 }
 
 .cestovatel img{
-    max-width: 425px;
+    width: 425px;
+}
+
+
+
+nav{
+    width: 550px;
+    align-items: center;
+    padding: 30px 15px;
+    gap: 20px;
+    text-align: center;
+}
+
+.box{
+flex: 0 1 calc(550px / 3);
+justify-content: space-between;
+
+}
+
+.prvni{
+    flex: 0 1 430px;
+    margin-left: 60px;
+    text-align: left;
 }
 
 .kancelar{
     display: flex;
     flex-direction: row-reverse;
+    margin-bottom: 80px;
+}
+
+
+
+
+.druhy{
+    flex: 0 1 430px;
+    margin-right: 60px;
+    text-align: left;
 }
 
 .delegat{
